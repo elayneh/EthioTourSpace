@@ -5,7 +5,6 @@ import ServicesComponent from "./ServicesComponent";
 import ContactUsComponent from "./ContactusComponent";
 import { Outlet, useLocation } from "react-router-dom";
 import FooterComponent from "./FooterComponent";
-import AboutusComponent from "./AboutusComponent";
 
 const LandingPage = () => {
   const { pathname } = useLocation();

@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Image from "../../../../assets/images/farmers/wheat-disease-figure-3-removebg-preview.png";
 import styled from "styled-components";
 
 const HomeComponent = () => {

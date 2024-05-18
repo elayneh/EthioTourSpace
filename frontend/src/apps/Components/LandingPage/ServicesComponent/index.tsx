@@ -1,7 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import Card from "../../../BasicStyles/Card";
 import { Flex } from "../../../BasicStyles/Flex";
-import { H1 } from "../../../BasicStyles/Text";
 import { Services } from "./constants";
 const ServicesComponent = () => {
   return (

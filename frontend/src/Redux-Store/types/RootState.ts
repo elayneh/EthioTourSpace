@@ -5,7 +5,7 @@ import { updateUserProfileCredentials } from "../../apps/Pages/UserProfile/Updat
 import { userProfileDetailCredentialsTypes } from "../../apps/Pages/UserProfile/UserProfileDetails/slice/types";
 import { HomeComponentPageTypes } from "../../apps/Pages/UserProfile/HomeComponentPage/slice/types";
 import { HistoryComponentPageTypes } from "../../apps/Pages/HistoryComponentPage/slice/types";
-import { UserProfileComponentTypes } from "../../apps/Components/UserProfile/slice/types";
+import { updateUserProfileComponentTypes } from "../../apps/Components/MembershipComponent/UpdateUserProfile/types";
 
 export interface RootState {
   loginPageName?: credentialsTypes;
@@ -16,5 +16,5 @@ export interface RootState {
   userProfileDetailPageName?: userProfileDetailCredentialsTypes;
   homePageSliceName?:HomeComponentPageTypes;
   historyPageSliceName?:HistoryComponentPageTypes;
-  userProfileSliceName?:UserProfileComponentTypes;
+  userProfileSliceName?:updateUserProfileComponentTypes;
 }
