@@ -36,8 +36,6 @@ const router = express.Router();
 router.post("/openai", openaiController);
 router.post(
   "/register",
-  // createAccountValidator(),
-  // errorParser,
   createUserController
 );
 router.post(

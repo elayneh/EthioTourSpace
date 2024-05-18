@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 export const connectDb = async () => {
   try {
-    const mongoUri = process.env.LOCAL_MONGO_URI;
+    const mongoUri = process.env.MONGO_URI;
     if (!mongoUri) {
       throw new Error("MongoDB URI not found in environment variables.");
     }
