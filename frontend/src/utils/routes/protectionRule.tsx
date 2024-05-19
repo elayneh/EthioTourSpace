@@ -5,6 +5,7 @@ import AboutusComponent from "../../apps/Components/LandingPage/AboutusComponent
 import { LoginPageLoader } from "../../apps/Pages/MembershipPage/LoginPage/Loadable";
 import { HomeComponentPage } from "../../apps/Pages/UserProfile/HomeComponentPage";
 import { HistoryPageLoader } from "../../apps/Pages/HistoryComponentPage/loadable";
+import ModelViewer from "../../apps/Components/3DModelViewerComponent";
 
 export const routeProtection = [
   {
@@ -55,7 +56,7 @@ export const routeProtection = [
   },
   {
     path: "/seeker/jobs/:jobId",
-    element: <HomeComponent />,
+    element: <ModelViewer />,
     allowedRole: "seeker",
   },
   {

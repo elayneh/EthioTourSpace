@@ -25,7 +25,7 @@ const ContactUsComponent = () => {
   });
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const onSubmit = (values: any, { setSubmitting, resetForm }: any) => {
+  const onSubmit = (_values: any, { setSubmitting, resetForm }: any) => {
     setSubmitting(false);
     resetForm();
   };
