@@ -1,10 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 
 
 const ModelViewer: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
   const location = useLocation();
   const link = location.state && location.state.link;
   return (

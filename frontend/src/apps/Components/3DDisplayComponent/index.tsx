@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Card,
   CardContent,
@@ -40,7 +39,7 @@ const Display3DComponent = () => {
 
   return (
     <CardGrid>
-      {gridData.map((item, index) => (
+      {gridData.map((item, _index) => (
         <ProductCard key={item.id} onClick={() => handleCardClick(item.id, item.link)}>
           <CardMedia
             component="img"
