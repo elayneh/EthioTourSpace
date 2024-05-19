@@ -41,7 +41,7 @@ const LoginComponent = (props: loginComponentTypes) => {
   }) => {
     if (event.key === "Enter") {
       document.getElementById("password")?.focus();
-      event.preventDefault(); // Prevent default form submission behavior
+      event.preventDefault();
     }
   };
 

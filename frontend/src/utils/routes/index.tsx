@@ -67,7 +67,4 @@ export const routes = createBrowserRouter(
       })),
     },
   ],
-  // {
-  //   basename: "/agriai",
-  // }
 );

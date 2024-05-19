@@ -63,7 +63,7 @@ const Display3DComponent = () => {
 
     // Redirect to external URL
     setTimeout(() => {
-      window.location.href = `https://3dwarehouse.sketchup.com/ar-view/9aa593efbeef687116d3007eb7e4386f`;
+      window.location.href = `https://sketchfab.com/3d-models/beta-giorgis-textured-lalibela-ethiopia-bbd290c2a74e46af9f0671573251034d`;
     }, 0);
   };
 

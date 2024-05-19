@@ -54,7 +54,7 @@ const AboutusComponent = ({ slides = AboutUs }) => {
   return (
     <Flex flexDirection="column" style={{ padding: "20px" }}>
       <H1 color="#5785E3" textAlign="center">
-        Why AgriAI
+        Why EthioTourSpace?
       </H1>
       <Swiper
         modules={[Navigation, Pagination]}
