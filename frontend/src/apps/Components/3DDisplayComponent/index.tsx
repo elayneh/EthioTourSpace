@@ -20,7 +20,7 @@ const ProductCard = styled(Card)({
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
-  cursor: "pointer", // Add cursor pointer to show that card is clickable
+  cursor: "pointer",
 });
 
 const ProductCardContent = styled(CardContent)({
@@ -29,7 +29,6 @@ const ProductCardContent = styled(CardContent)({
   alignItems: "flex-start",
 });
 
-const BASE_URI = "https://source.unsplash.com/random?sig=";
 
 const Display3DComponent = () => {
   const navigate = useNavigate();
@@ -46,7 +45,7 @@ const Display3DComponent = () => {
           <CardMedia
             component="img"
             height="200"
-            image={BASE_URI + index}
+            image={item.image}
             alt={item.title}
           />
           <ProductCardContent>
