@@ -53,7 +53,7 @@ const AuthNavigationBar = () => {
             paddingTop: "-5px",
           }}
         >
-          TourismSpa
+          EthioTourSpace
         </Typography>
         <div style={{ display: "flex", alignItems: "center" }}>
           <IconButton style={{ color: "#004024", marginRight: "10px" }}>

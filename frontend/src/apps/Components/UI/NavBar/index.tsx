@@ -23,7 +23,9 @@ const NavigationBar = () => {
             paddingTop: "-5px",
           }}
         >
-          <Button onClick={()=>navigate('/landingPage')}>TourismSpa</Button>
+          <Button onClick={() => navigate("/landingPage")}>
+            EthioTourSpace
+          </Button>
         </Typography>
       </Toolbar>
     </AppBar>

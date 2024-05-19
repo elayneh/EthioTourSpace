@@ -30,7 +30,6 @@ passport.use(
       passReqToCallback: true,
     },
     (request, accessToken, refreshToken, profile, done) => {
-      console.log(profile);
       done(null, profile);
     }
   )
@@ -54,7 +53,6 @@ passport.use(
       ],
     }, // facebook will send back the token and profile
     function (token, refreshToken, profile, done) {
-      console.log(profile);
       return done(null, profile);
     }
   )
@@ -84,7 +82,6 @@ passport.use(
       callbackURL: "http://localhost:3000/twitter/callback",
     },
     function (token, tokenSecret, profile, cb) {
-      console.log("call");
       done(null, profile);
     }
   )

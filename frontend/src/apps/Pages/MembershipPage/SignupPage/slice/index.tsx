@@ -21,7 +21,6 @@ const slice = createSlice({
       state.authCredentials = action.payload;
       state.isAuthenticated = true;
       const { _id, token, email, fullName, phoneNumber } = action.payload;
-      console.log("Full name: ", fullName);
       localStorage.setItem("id", _id);
       localStorage.setItem("token", token || "");
       localStorage.setItem("email", email);

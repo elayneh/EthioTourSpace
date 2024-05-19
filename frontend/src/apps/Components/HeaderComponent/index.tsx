@@ -96,7 +96,7 @@ const HeaderComponent = ({ setShowSideBar, showSideBar }: SideBarProps) => {
               textTransform: "uppercase",
             }}
           >
-            TourismSpa
+            EthioTourSpace{" "}
           </Typography>{" "}
         </Flex>
         <Vr />

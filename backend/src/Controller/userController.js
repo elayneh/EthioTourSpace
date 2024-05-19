@@ -48,7 +48,6 @@ export const loginUserController = (req, res, next) => {
         token: user.token,
       });
     } catch (error) {
-      console.log("Error: ", error);
       return res.status(401).json({
         status: "error",
         message: error.message || "Unauthorized",

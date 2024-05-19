@@ -26,7 +26,6 @@ const ContactUsComponent = () => {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onSubmit = (values: any, { setSubmitting, resetForm }: any) => {
-    console.log("Submitted values:", values);
     setSubmitting(false);
     resetForm();
   };
@@ -147,7 +146,7 @@ const ContactUsComponent = () => {
               <Flex alignItems={"center"} style={{ gap: 10 }}>
                 {" "}
                 <AiOutlineMail color="#ba68c8" size={25} />
-                <Typography>TourismSpa@gmail.com</Typography>
+                <Typography>ethiotourspace@gmail.com</Typography>
               </Flex>
             </Flex>
             <Flex paddingBottom={50}>
