@@ -55,7 +55,7 @@ export const routeProtection = [
     allowedRole: "seeker",
   },
   {
-    path: "/seeker/jobs/:jobId",
+    path: "/display/models/:jobId",
     element: <ModelViewer />,
     allowedRole: "seeker",
   },

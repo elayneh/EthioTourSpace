@@ -35,22 +35,14 @@ export const gridData = [
     description:
       "The ancient city of Axum is home to the famous obelisks, the Church of St. Mary of Zion, and is believed to be the resting place of the Ark of the Covenant.",
     image: Axum,
-    link:"https://3dwarehouse.sketchup.com/embed/9aa593efbeef687116d3007eb7e4386f?token=SIhhib87aMQ=&binaryName=s21"
-  },
-  {
-    id: "3",
-    title: "Semien Mountain National Park",
-    description:
-      "A UNESCO World Heritage site, the park offers stunning landscapes, diverse wildlife, and opportunities for trekking and mountain climbing",
-    image: SMNP,
-    link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
+    link:"https://sketchfab.com/models/8c8915fcce574c2e8250e780d0424512/embed"
   },
   {
     id: "4",
     title: "Gondar",
     description: "Google's latest smartphone with AI capabilities",
     image: Gondar,
-    link:"https://3dwarehouse.sketchup.com/embed/d596c34935c292417223131fd7b56dc4?token=kewq6srtqLQ=&binaryName=s21"
+    link:"https://sketchfab.com/models/acbbcb14e0a544d081c60325478313f6/embed"
   },
   {
     id: "5",
@@ -58,23 +50,15 @@ export const gridData = [
     description:
       "The capital city, with attractions such as the National Museum of Ethiopia, Holy Trinity Cathedral, and Mercato, one of Africa's largest open-air markets.",
     image: AddisAbaba,
-    link:"https://3dwarehouse.sketchup.com/embed/53be35e1d28bbad51911c82e0ab01edb?token=CAajJpAcW3Y=&binaryName=s21"
+    link:"https://sketchfab.com/models/0c00dbd56cbf47ba9070a28c4f32e195/embed"
   },
   {
-    id: "6",
-    title: "Harar Jugol",
+    id: "9",
+    title: "Tiya Tikil Dingay",
     description:
-      "A UNESCO World Heritage site, Harar is known for its ancient city walls, narrow alleys, and vibrant markets. It's also famous for the tradition of feeding hyenas.",
-    image: HararJugol,
-    link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
-  },
-  {
-    id: "7",
-    title: "Sof Omar Caves",
-    description:
-      "One of the most extensive case systems in Africa, known for its impressive limestone formations and religious significance",
-    image: SofOmarCaves,
-    link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
+      "An ancient monastery perched on a cliff, accessible only by climbing a rope. It's one of Ethiopia's oldest and most important religious sites.",
+    image: DebreDamoMonastery,
+    link:"https://sketchfab.com/models/8d4ecc064fcc4f999b26380ab488191d/embed"
   },
   {
     id: "8",
@@ -82,7 +66,24 @@ export const gridData = [
     description:
       "One of the hottest and most inhospitable places on Earth, known for its colorful sulfur springs, salt flats, and Erta Ale, an active lava lake.",
     image: DanakilDepression,
-    link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
+    link:"https://sketchfab.com/models/869e5ddbf5424b4197480b08e1e055b3/embed"
+  },
+  {
+    id: "3",
+    title: "Semien Mountain National Park",
+    description:
+      "A UNESCO World Heritage site, the park offers stunning landscapes, diverse wildlife, and opportunities for trekking and mountain climbing",
+    image: SMNP,
+    link:"https://sketchfab.com/models/cddef5cc80bc4aab8be65b38c29987fa/embed"
+  },
+  
+  {
+    id: "7",
+    title: "Sof Omar Caves",
+    description:
+      "One of the most extensive case systems in Africa, known for its impressive limestone formations and religious significance",
+    image: SofOmarCaves,
+    link:"https://sketchfab.com/models/ea646f7f1c3e402a95ac83145daffbe5/embed"
   },
   {
     id: "9",
@@ -90,6 +91,14 @@ export const gridData = [
     describtion:
       "An ancient monastery perched on a cliff, accessible only by climbing a rope. It's one of Ethiopia's oldest and most important religious sites.",
     image: DebreDamoMonastery,
+    link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
+  },
+  {
+    id: "6",
+    title: "Harar Jugol",
+    description:
+      "A UNESCO World Heritage site, Harar is known for its ancient city walls, narrow alleys, and vibrant markets. It's also famous for the tradition of feeding hyenas.",
+    image: HararJugol,
     link:"https://sketchfab.com/models/bbd290c2a74e46af9f0671573251034d/embed"
   },
 ];
